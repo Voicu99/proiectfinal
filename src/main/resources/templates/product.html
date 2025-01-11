@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Detalii Produs</title>
+</head>
+<body>
+<h1 th:text="${product.name}"></h1>
+<p>Categorie: <span th:text="${product.category}"></span></p>
+<p>Preț: <span th:text="${product.price}"></span></p>
+<p>Stoc: <span th:text="${product.stock}"></span></p>
+</body>
+</html>
